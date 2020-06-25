@@ -1,0 +1,118 @@
+<style>
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color:rgb(137, 160, 160);
+  margin-top: 0px;
+}
+
+header{
+  font-size: 30px;
+   font-weight: bold;
+}
+
+.center {
+text-align: center;
+font-size: 40px;
+}
+
+#main-doc {
+  width: auto;
+  margin-left: 250px;
+  margin-right: 27px;
+  text-align: left;
+  margin-top: 0px;
+  }
+
+  .main-section {
+    font-size: bold;
+    text-align: justify;
+    }
+
+ .nav-link {
+    border-top: 2px solid white;
+    }
+
+
+.wrapper {
+  display: flex;
+  position: relative;
+  margin-top: 0px;
+  width: 215px;
+  }
+
+#navbar{
+position:fixed;
+width: 215px;
+height: 400px;
+padding: 30px 0;
+overflow-y: auto;
+font-weight: bold;
+}
+
+
+.wrapper a {
+  background-color: rgb(59, 78, 78);
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  background-color: #ccc;
+}
+
+.wrapper a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+#img-size{
+width: 600px;
+margin-left: 17%;
+}
+
+table, td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+th {
+  background-color: rgb(59, 78, 78);
+}
+
+.sub-head {
+  text-align: center;
+  background-color: rgb(59, 78, 78);
+}
+
+ol {
+  background-color: rgb(225, 235, 235);
+}
+
+@media only screen and (min-width: 768px) {
+  #navbar{
+    position:fixed;
+    width: 215px;
+    height: 400px;
+    padding: 30px 0;
+    overflow-y: auto;
+    font-weight: bold;
+    }
+}
+
+
+</style>
