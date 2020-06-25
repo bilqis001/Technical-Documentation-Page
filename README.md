@@ -1,1 +1,1 @@
-# This is a ttechnical documentation about CSS
+# This is a technical documentation about CSS
